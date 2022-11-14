@@ -18,7 +18,4 @@ boton.addEventListener("click",function(){
   li.textContent = tarea
   tareas.appendChild(li)
 
-  var deleteLi = document.deleteElement("li")
-  li.textContent = tarea
-  tareas.appendChild(li)
 })
