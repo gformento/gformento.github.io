@@ -1,8 +1,51 @@
 body{
-    background-color: lightgray;
-    font-family: sans-serif;
-  }
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+#main{
+margin-top: 3%;
+border: 2px solid black;
+border
+}
+
+.titular{
+background-color: lightgray;
+border-radius: 5px;
+width: 50%;
+position: relative;
+margin: auto;
+text-align: center;
+text-decoration: underline;
+}
+
+#txt_tarea{
+width: 26%;
+position: relative;
+margin: auto;
+margin-top: 2%;
+text-align: center;
+
+}
+#tarea{
+  display: block;
+  border: 0;
+  background-color: #eee;
+  margin: auto;
+  outline: none;
   
-  #tarea{
-    display: block;
-  }
+}
+#btn{
+margin-left: 44%;
+margin-top: 2%;
+position: relative;
+border-color: #3498db;
+color: #fff;
+box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+-webkit-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;
+}
+#btn:hover {
+background-color: #3498db;
+box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
